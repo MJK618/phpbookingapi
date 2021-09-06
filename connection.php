@@ -2,16 +2,16 @@
 
    $hostName='localhost';
    $userName='root';
-   $userPass='MJK618';
+   $userPass='';
    $dbName='userdata';
 
    $con=mysqli_connect($hostName,$userName,$userPass,$dbName);
 
-   // if(!$con){
-   //
-   //  echo "connection failed";
-   // }
-   // else
-   //  echo "connection succes";
+   if(!$con){
+   
+    echo "connection failed";
+   }
+   else
+    echo "connection succes";
 
 ?>
